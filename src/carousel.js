@@ -126,13 +126,10 @@ function ControlledCarousel() {
           <br></br>
           <p className="carBox">Summer of 2022, I was part of a research team affiliated with UMD.
           We were working on solving the&nbsp;
-          <a
-          href="https://github.com/facebookresearch/nle"
-          style={{ all: "unset", cursor: "pointer" }}
-          >
+          <a href="https://github.com/facebookresearch/nle"
+          style={{ all: "unset", cursor: "pointer" }}>
           <u>NetHack Learning Enviroment (NLE)</u>
-          </a>
-          &nbsp;using reinforcement learning. </p>
+          </a> &nbsp;using reinforcement learning. </p>
           <Carousel.Caption>
             {/*Text over image goes here*/}
           </Carousel.Caption>
