@@ -104,13 +104,6 @@ function App() {
                     <b style={{ fontSize: "large", color: "#000000" }}>qRoute</b>
                   </a>
                   <br />
-                  Yep, it's another Q-project. What does the Q stand for?
-                  <a
-                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                    style={{ all: "unset", cursor: "pointer" }}
-                  >
-                    <u>It's a long story.</u>
-                  </a>
                   This was a another group project in a CS class, where we aimed to
                   solve the travelling-salesman-esque problem of optimizing
                   transport routes.
