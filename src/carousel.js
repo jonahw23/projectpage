@@ -24,7 +24,7 @@ function ControlledCarousel() {
           <h3><b style={{ fontSize: "large", color: "rgb(235, 238, 241)" }}>Munch</b></h3>
           </a>
           <br></br>
-          <p className="carBox">Free food is abundant on college campuses, but it's not always easy to find. 
+          <p className="carBox">Free food is abundant on college campuses, but it's not always easy to find! <br></br>
           I designed and built <i>Munch</i> to solve that problem: it's a community-based 
           app powered by Firebase where users can report and locate free food events around the RIT campus.</p>
           <Carousel.Caption>
@@ -43,8 +43,8 @@ function ControlledCarousel() {
           <h3><b style={{ fontSize: "large", color: "rgb(235, 238, 241)" }}>qDungeon</b></h3>
           </a>
           <br></br>
-          <p className="carBox">Created as a project for a software design class, <i>qDungeon
-            </i>{" "}is an in-browser turn-based dungeon-crawler in the style of{" "}
+          <p className="carBox">Created as a final project for a software design class, <i>qDungeon
+            </i>{" "}is an in-browser, turn-based dungeon-crawler in the style of{" "}
             <i>NetHack</i> or other old roguelikes. I built it along with a
             friend as practice using React to craft a responsive webpage.</p>
           <Carousel.Caption>
@@ -63,7 +63,7 @@ function ControlledCarousel() {
           <h3><b style={{ fontSize: "large", color: "rgb(235, 238, 241)" }}>qGroup</b></h3>
           </a>
           <br></br>
-          <p className="carBox">A React-based website with a Flask backend, qGroup was createed to a
+          <p className="carBox">A React-based website with a Flask backend, qGroup was created to a
           provide teachers and other would-be
           group-makers with a convenient, customizable way to create groups
           and organizational seating layouts.</p>
@@ -83,9 +83,9 @@ function ControlledCarousel() {
           <h3><b style={{ fontSize: "large", color: "rgb(235, 238, 241)" }}>qRoute</b></h3>
           </a>
           <br></br>
-          <p className="carBox">Yep, it's another Q-project. What does the Q stand for? That's a story for another day. <br></br>
+          <p className="carBox">Yep, it's another Q-project. What does the Q stand for? That's a longer story than I have space for here. <br></br>
           This was a another group project in a CS class, where we aimed to
-          solve the travelling-salesman-esque problem of optimizing
+          solve the traveling-salesman-esque problem of optimizing
           transport routes.</p>
           <Carousel.Caption>
             {/*Text over image goes here*/}
