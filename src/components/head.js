@@ -17,7 +17,7 @@ import {useNavigate} from 'react-router-dom';
 //   }
 
 export default function Head (){
-    const [active, setActive] = useState(false)
+    // const [active, setActive] = useState(false)
 
     // function toggleContact(){
     //     setActive(!active)
