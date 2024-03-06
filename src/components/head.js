@@ -2,26 +2,26 @@ import React, { useState } from "react";
 import TextCycle from "../textcycle";
 import {useNavigate} from 'react-router-dom';
 
-function maybeContact(bool){
-    if(bool){
-      if(window.innerWidth <= 600){
-        return <div className="contact loud">
-          <div>Jonah Witte</div>
-          <div>240-704-2330</div>
-          <div>jonahwitte10@gmail.com</div>
-        </div>
-      }
-      return <div className="contact"><span className="left loud">Jonah Witte</span> <span className="center loud">240-704-2330</span> <span className="right loud">jonahwitte10@gmail.com</span></div>
-    }
-    return <div></div>
-  }
+// function maybeContact(bool){
+//     if(bool){
+//       if(window.innerWidth <= 600){
+//         return <div className="contact loud">
+//           <div>Jonah Witte</div>
+//           <div>240-704-2330</div>
+//           <div>jonahwitte10@gmail.com</div>
+//         </div>
+//       }
+//       return <div className="contact"><span className="left loud">Jonah Witte</span> <span className="center loud">240-704-2330</span> <span className="right loud">jonahwitte10@gmail.com</span></div>
+//     }
+//     return <div></div>
+//   }
 
 export default function Head (){
     const [active, setActive] = useState(false)
 
-    function toggleContact(){
-        setActive(!active)
-    }
+    // function toggleContact(){
+    //     setActive(!active)
+    // }
 
     const navigate = useNavigate();
     const handleClickHome = () => navigate('/');
